@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "description": "White-label configuratietemplate. Vul dit schema in per klant. Dit bestand is GEEN onderdeel van het systeem — het dient als invulschema voor het onboarden van nieuwe klanten.",
+    "instructions": "Velden met (optioneel) mogen weggelaten worden. De agent activeert alleen features die aanwezig zijn in de configuratie."
+  },
+
+  "merk": {
+    "naam": "",
+    "waarden": [],
+    "missie": "",
+    "product_dienst": "",
+    "usp": []
+  },
+
+  "stem": {
+    "toon": "",
+    "stijl": "",
+    "vermijd": [],
+    "beeldspraak": "(optioneel)"
+  },
+
+  "spark__optioneel": {
+    "enabled": false,
+    "plaatsing": "",
+    "paletten": {
+      "context_naam": []
+    },
+    "seizoenslogica__optioneel": {
+      "zomer": [],
+      "herfst": [],
+      "winter": [],
+      "lente": []
+    },
+    "regels": []
+  },
+
+  "doelgroepen": [
+    {
+      "naam": "",
+      "beschrijving": "",
+      "aanspreekvorm": "je of u",
+      "toon_variant__optioneel": null
+    }
+  ],
+
+  "schrijfregels": {
+    "taalniveau": "B1",
+    "max_zinslengte": 17,
+    "max_zinnen_per_alinea": 3,
+    "zinsbouw": "Actief, geen lijdende vorm",
+    "aanspreekvorm_standaard": "je",
+    "aanhef": "Beste",
+    "verboden_woorden": [],
+    "verplichte_woorden__optioneel": [],
+    "vervanglijst__optioneel": {},
+    "interpunctie__optioneel": {},
+    "naamwoordstijl": "vermijden",
+    "modale_werkwoorden": "vermijden"
+  },
+
+  "terminologie__optioneel": {
+    "groen": [],
+    "oranje": [],
+    "rood": [],
+    "bron": ""
+  },
+
+  "compliance__optioneel": {
+    "hierarchie": [],
+    "escalatie": "",
+    "escalatie_zin": "",
+    "disclaimers": [],
+    "evenwichtigheid": ""
+  },
+
+  "content_types": {
+    "type_naam": {
+      "lengte": "",
+      "structuur": "",
+      "specifieke_regels__optioneel": [],
+      "intake_vragen__optioneel": []
+    }
+  },
+
+  "link_beleid__optioneel": {
+    "toegestane_bronnen": "",
+    "specifieke_regels": [],
+    "ankertekst": "",
+    "ontbrekende_links": ""
+  },
+
+  "kernwoorden__optioneel": {
+    "verplicht": [],
+    "synoniemen": {},
+    "context_activering": {},
+    "frequentie": ""
+  },
+
+  "kennisbank__optioneel": {
+    "documenten": [],
+    "instructie": ""
+  },
+
+  "sign_off__optioneel": {
+    "trigger": "",
+    "bericht": ""
+  }
+}
